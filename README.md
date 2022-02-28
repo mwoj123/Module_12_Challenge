@@ -1,1 +1,3 @@
-# Module_12_Challenge
+# Credit Risk Evaluation
+
+In this challenge, I used a Logistic Regression, Supervised Learning model to help predict whether future loans would be healthy or unhealthy given various parameters. In the first model, I trained the model using a sample of our historical data which yielded strong predictive results as seen in the first classification report. Since our sample of data is heavily favored towards healthy loans by virtue of probability, I sought to increase the predictive ability of the model further by resampling my data. This process created an equal number of unhealthy loans as healthy loans in my training set. The output of this was that the second model was better at finding unhealthy loans (recall) but had reduced precision as a result of the bias towards an increase in unhealthy loans in the training data. 
